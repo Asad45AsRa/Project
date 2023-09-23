@@ -3,7 +3,18 @@ import 'F:/coding/Project/project/src/index.css'
 
 function Navbar() {
   return (
-    <div className='text-green-600'>Hello i am A nav Bar</div>
+    <nav className='flex my-2 py-1 bg-slate-600 text-white font-medium'>
+        <ul className='flex my-2 mx-3'>
+            <li className='mx-5 cursor-pointer
+             hover:text-lg hover:text-yellow-100'>Home</li>
+            <li className='mx-5 cursor-pointer
+            hover:text-lg hover:text-yellow-100'>Services</li>
+            <li className='mx-5 cursor-pointer
+            hover:text-lg hover:text-yellow-100'>About</li>
+            <li className='mx-5 cursor-pointer
+            hover:text-lg hover:text-yellow-100'>Contact Us</li>
+        </ul>
+    </nav>
   )
 }
 
