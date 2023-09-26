@@ -54,11 +54,12 @@ function Navbar() {
                 <li><a href="/belogs">Belog's</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
-            <div>
+            <div className='flex gap-4 px-6'>
                 <button className='px-1 py-1 bg-red-500 rounded-md outline-none'>Login now</button>
+                <button className='px-1 py-1 bg-red-500 rounded-md outline-none'>SignIn now</button>
             </div>
             <div>
-            <button className='font-medium text-xl py-1'><BiAlignRight /></button>
+            <button className='md:hidden font-medium text-xl py-1'><BiAlignRight /></button>
             </div>
         </nav>
     </div>
