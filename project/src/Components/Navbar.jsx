@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import 'F:/coding/Project/project/src/index.css'
+import { NavLink } from 'react-router-dom';
 import { BiAlignRight } from "react-icons/bi";
 
 function Navbar() {
@@ -24,7 +25,7 @@ function Navbar() {
                 SecR<span className='text-amber-700'>adius</span>
             </div>
             <ul className='md:flex font-medium py-1 gap-10'>
-                <li><a href="/">Home</a></li>
+                <NavLink to='/'/><li><a href="/">Home</a></li>
                 <li
                 onMouseEnter={togglePopup}
                 onMouseLeave={togglePopup}
