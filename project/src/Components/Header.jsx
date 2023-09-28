@@ -1,51 +1,48 @@
-import React, {useState} from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState } from 'react'
+import {NavLink} from 'react-router-dom'
 import { AiOutlineClose } from "react-icons/ai";
 import { RxHamburgerMenu } from "react-icons/rx";
-import 'F:/coding/Project/project/src/index.css'
 
 
 const Header = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const [isOpen, setOpen] = useState(false);
+
+    const toggle = () => {
+        setOpen(!isOpen)
+    }
 
     const navLinks = [
-      { href: "/", label: "Home" },
-      { href: "/about", label: "About" },
-      { href: "/services", label: "Services" },
-      { href: "/blog", label: "Blog Post" },
-      { href: "/contact", label: "Contact" },
-    ];
-  
-    const toggleMenu = () => {
-      setIsMenuOpen(!isMenuOpen);
-    };
-      
-  
+        {href : "/", label : "Home"},
+        {href : "/about", label : "About"},
+        {href : "/services", label : "Services"},
+        {href : "/blog", label : "Blog Post"},
+        {href : "/contact", label : "Contact"}
+    ]
   return (
-    <header className='fixed bg-gray-700 w-full my-1'>
-        <nav className='flex justify-center items-center gap-15 text-white'>
-            <a href="/" className='font-semibold text-2xl'>sec
-            <span className='text-green-800'>Radius</span></a>
-            <ul className='flex-1 flex justify-center items-center gap-16'>
-                {navLinks.map((item) => (
+    <header className='items-center justify-center'>
+        <nav className='bg-slate-800 flex text-white font-Poppins w-full justify-between py-3'>
+            <a href="/" className='text-xl font-semibold'>Sec<span className='text-green-700'>Radius</span></a>
+            <ul className='md:flex lg:flex gap-14'>
+                {navLinks.map((item)=> (
                     <li key={item.label}>
-                        <NavLink to ={item.href} className='text-green-500 hover:text-red-500'>
-                            {item.label}
-                        </NavLink>
+                        <NavLink to={item.href} 
+                        className='hover:text-red-600'>
+                            {item.label}</NavLink>                        
                     </li>
                 ))}
-                
             </ul>
+            <button className='rounded-md px-1 py-1 bg-slate-400 outline-none'>Login Now</button>
             <button className=''
-            onClick={toggleMenu}>
-                {
-                    isMenuOpen ? (
-                        <AiOutlineClose size={24} color='white' />
-                    ): (
-                        <RxHamburgerMenu size={24} color='white' />
-                    )
-                }</button>
-        </nav>
+            onClick={toggle}>
+                {toggle ? (
+            <AiOutlineClose size={24} color="white" />
+          ) : (
+            <RxHamburgerMenu size={24} color="white" />
+          )}
+
+            </button>
+        </nav> 
     </header>
   )
 }
