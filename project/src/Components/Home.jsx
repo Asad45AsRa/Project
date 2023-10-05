@@ -42,9 +42,9 @@ const Home = () => {
           <p>Some text herte will b soon Now again</p>
           <p>Some text herte will b soon Now again</p>
           <div>
-            <p>Hello Asad ul islam</p>
+            <p>Some text again here</p>
             <Typed
-              strings={['Love', 'Soo', 'Much', 'Inshira']}
+              strings={['Some', 'Text', 'Again', 'Here']}
               typeSpeed={120}
               backSpeed={146}
               loop
