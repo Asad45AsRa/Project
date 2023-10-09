@@ -1,4 +1,5 @@
 import React from 'react'
+import Service from './Service'
 
 const Services = () => {
   return (
@@ -79,6 +80,7 @@ const Services = () => {
           
         </div>
       </div>
+      <Service />
     </>
   )
 }

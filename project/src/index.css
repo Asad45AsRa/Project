@@ -16,3 +16,9 @@ code {
     monospace;
 }
 
+@layer base {
+button {
+@apply text-white border bg-[#cd1b00] border-[#cd1b00] px-1 py-1
+hover:bg-transparent hover:text-[#cd1b00] rounded-md hover:font-bold
+}
+}
