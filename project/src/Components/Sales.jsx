@@ -20,15 +20,19 @@ const Sales = () => {
 
 
   return (
-    <div className='max-w-[1250px] mx-auto my-10 p-2 md:grid grid-cols-2 duration-500'>
-      <div className='col-span-1 md:w-[80%] text-center'>
+    <div className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% duration-500'>
+      <div className='max-w-[1250px] mx-auto my-0 py-10 p-2 md:grid grid-cols-2 duration-500 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
+      <div className='col-span-1 md:w-[80%] text-center py-2'>
         <img src={data1[currentIndex].image} alt="" className='inline h-60' />
       </div>
-      <div className='col-span-1 flex flex-col justify-center'>
-        <h1 className='text-[#00df9a] font-bold my-2 text-justify'>{data1[currentIndex].heading}</h1>
+      <div className='col-span-1 flex flex-col justify-center py-2 duration-500'>
+        <h1 className='text-[#00df9a] font-bold my-2 text-justify duration-500'>{data1[currentIndex].heading}</h1>
         <p className='m-2y '>{data1[currentIndex].description}</p>
+        <div className='py-2'>
         <button className='inline w-[30%] p-2 py-2'>Get Started</button>
+        </div>
       </div>
+    </div>
     </div>
   )
 }

@@ -39,9 +39,9 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className='sm:hidden md:block py-1 my-2 w-full h-14 text-center items-center justify-center bg-slate-700 px-10'>
+                <div className='sm:hidden md:block w-full h-14 text-center items-center justify-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-10 md:mr-10 duration-500'>
                     <div className='before:min-w-[412px]hide-mobile md:block md:w-full items-center text-center justify-center p-2 md:px-0 px-40'>
-                        <ul className='sm:hidden md:flex font-Poppins2 font-semibold justify-center lg:gap-10'>
+                        <ul className='sm:hidden py-1 md:flex text-xl font-Hind font-semibold justify-center lg:gap-10'>
                             {navLinks.map((item) => (
                                 <li key={item.label} className='mx-5'>
                                     <NavLink to={item.link}
@@ -55,9 +55,9 @@ const Header = () => {
                         </ul>
                     </div>
                 </div>
-                <ul className={!open ? 'hidden' : ' bg-slate-800 w-full px-8 py-2'}>
+                <ul className={!open ? 'hidden' : ' bg-slate-800 w-full px-8 py-2 duration-500'}>
                     {navLinks.map((item) => (
-                        <li key={item.link} className='border-b-2 border-[#121731] w-full md:hidden'>
+                        <li key={item.link} className='border-b-2 border-[#121731] w-full md:hidden duration-500'>
                             <NavLink to={item.link} className='text-white hover:text-[#cd1b00] focus-within:text-purple-600 active:bar__data font-Poppins'>{item.label}</NavLink>
                         </li>
                     ))}
