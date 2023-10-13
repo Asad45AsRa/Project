@@ -23,7 +23,7 @@ const Header = () => {
     return (
         <>
             <header>
-                <div className='w-full h-11 items-center justify-center bg-slate-800'>
+                <div className='w-full h-11 items-center justify-center shadow-md bg-slate-800'>
                     <div className='justify-between text-white flex p-1 py-1'>
                         <div className='text-xl font-bold font-Quicksand ml-2'>
                             Sec<span className='text-green-400'>Radius</span>
@@ -39,7 +39,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className='sm:hidden md:block w-full h-14 text-center items-center justify-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-10 md:mr-10 duration-500'>
+                <div className='sm:hidden md:block w-full h-14 text-center items-center justify-center shadow-2xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-10 md:mr-10 duration-500'>
                     <div className='before:min-w-[412px]hide-mobile md:block md:w-full items-center text-center justify-center p-2 md:px-0 px-40'>
                         <ul className='sm:hidden py-1 md:flex text-xl font-Hind font-semibold justify-center lg:gap-10'>
                             {navLinks.map((item) => (
@@ -50,7 +50,7 @@ const Header = () => {
 
                             ))}
                             <div className='ml-40 md:ml-0'>
-                                <button className='text-sm mr-2 sm:px-1 sm:py-1 px-1 py-1'>Get Quote</button>
+                                <button className='bg-slate-900 text-white rounded-md p-2 hover:bg-indigo-700 hover:font-bold font-Hind hover:rounded-none duration-300 text-sm mr-2 sm:px-1 sm:py-1 px-1 py-1'>Get Quote</button>
                             </div>
                         </ul>
                     </div>
@@ -62,7 +62,7 @@ const Header = () => {
                         </li>
                     ))}
                     <div className='md:hidden py-2'>
-                        <button className='px-8 py-1 mb-2'>Get Quote</button>
+                        <button className='bg-slate-900 text-white hover:text-indigo-700 hover:font-bold font-Hind duration-300 px-8 py-1 mb-2'>Get Quote</button>
                     </div>
                 </ul>
             </header>

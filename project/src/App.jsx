@@ -6,6 +6,7 @@ import Header from './Components/Header';
 import Services from './Components/Services.jsx';
 import Blogs from './Components/Blogs';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route path='/contact' element = {<Contact />} />
       <Route path='/*' element = {<Navigate to='/' />} />
     </Routes>
+    <Footer />
     </BrowserRouter>
     <Outlet ></Outlet>
     </>

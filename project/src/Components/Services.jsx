@@ -28,9 +28,9 @@ const Services = () => {
           <p className='text-xl font-Hind font-bold sm:hidden md:block text-justify md:p-2'>At SecRadius, your security is our priority, and our services reflect that dedication.</p>
         </div>
       </div>
-      <div className='lg:w-screen md:w-screen h-full  py-10 md:px-10 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
+      <div className='lg:w-screen md:w-screen h-full py-10 md:px-10 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
         <div className='w-full h-full md:p-2 md:grid-cols-3 md:flex'>
-          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-md border border-black rounded-lg mx-2'>
+          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
             <div className='flex-wrap  px-3 text-justify py-2'>
               <img src="./Assets/services/sr-2.png" alt="" className='w-44 h-40' />
               <h1 className='font-bold text-xl px-2 py-1'>Web Application Penetration</h1>
@@ -43,11 +43,12 @@ const Services = () => {
                 The goal is to help organizations secure their web applications
                 and protect sensitive data.</p>
               <div className='py-2'>
-                <button >Learn More</button>
+                <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
               </div>
             </div>
           </div>
-          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] border border-black rounded-lg mx-2'>
+          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
             <div className='flex-wrap  px-3 text-justify py-2'>
               <img src="./Assets/services/sr-6.png" alt="" className='w-44 h-40' />
               <h1 className='font-bold text-xl px-2 py-1'>Network Penetration</h1>
@@ -58,11 +59,12 @@ const Services = () => {
                 weaknesses that could be exploited to gain unauthorized access or
                 disrupt network operations.</p>
               <div className='py-2'>
-                <button >Learn More</button>
+                <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
               </div>
             </div>
           </div>
-          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] border border-black rounded-lg mx-2'>
+          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-3.png" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1'>API Penetration Testing</h1>
@@ -73,7 +75,8 @@ const Services = () => {
                 validation mechanisms of APIs to ensure they are protected against
                 unauthorized access and potential exploits.</p>
                 <div className='py-2'> 
-                  <button >Learn More</button>
+                  <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
                 </div>
               </div>
             </div>
@@ -81,7 +84,7 @@ const Services = () => {
       </div>
       <div className='pt-0 lg:w-screen md:w-screen h-full  py-8 md:px-10 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
         <div className='w-full h-full md:p-2 md:grid-cols-3 md:flex'>
-            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] border border-black rounded-lg mx-2'>
+            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-1.png" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1'>IOS Apps Penetration</h1>
@@ -91,11 +94,12 @@ const Services = () => {
                 attackers. The goal is to ensure that iOS apps are resilient to attacks 
                 and protect user data.</p>
                 <div className='py-2'> 
-                  <button >Learn More</button>
+                  <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
                 </div>
               </div>
             </div>
-            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] border border-black rounded-lg mx-2'>
+            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-5.png" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1'>Source Code Review</h1>
@@ -106,11 +110,12 @@ const Services = () => {
                 flaws, and insecure authentication mechanisms. The primary objective is 
                 to eliminate coding vulnerabilities before they can be exploited.</p>
                 <div className='py-2'> 
-                  <button >Learn More</button>
+                  <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
                 </div>
               </div>
             </div>
-            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] border border-black rounded-lg mx-2'>
+            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-4.png" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1'>Andriod Apps Penetration</h1>
@@ -121,12 +126,18 @@ const Services = () => {
                 goal is to enhance the security of Android apps and protect user 
                 information.</p>
                 <div className='py-2'> 
-                  <button >Learn More</button>
+                  <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
                 </div>
               </div>
             </div>
        
       </div>
+      </div>
+      <div className='lg:w-screen md:w-screen h-20 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
+        <div className='text-center justify-center items-center p-4'>
+        <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
+        </div>
       </div>
     </>
   )
