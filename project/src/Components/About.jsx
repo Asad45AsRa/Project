@@ -3,13 +3,13 @@ import React from 'react'
 const About = () => {
   return (
     <>
-      <div className='w-screen h-52 mb-0 pb-0 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% duration-500'>
-        <div className='w-full justify-center items-center text-center'>
+      <div className='w-screen h-52 mb-0 pb-0 bg-slate-100'>
+        <div className='pt-5 w-full justify-center items-center text-center bg-slate-900'>
           <h1 className='text-5xl font-bold font-Hind pt-12 text-white'>About</h1>
-          <h1 className='text-xl font-bold font-Hind pt-3'>Discover Our Story: Who We Are and What Drives Us</h1>
+          <h1 className='text-xl font-bold font-Hind pt-3 text-white'>Discover Our Story: Who We Are and What Drives Us</h1>
         </div>
       </div>
-      <div className=' pt-0 mt-0 w-full h-full pb-3 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% duration-500'>
+      <div className=' pt-0 mt-0 w-full h-full pb-3 shadow-lg bg-slate-100'>
         <div className='max-w-[1250px] mx-auto my-0 sm:pb-0 p-2 md:grid grid-cols-2 duration-500 md:border-b-2'>
           <div className='col-span-1 md:w-[80%] text-center'>
             <img src="./Assets/about/abc.png" alt="" />
@@ -27,14 +27,15 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='w-screen h-full  bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% duration-500'>
-        <div className='sm:my-0 sm:py-0 w-[100%] h-[100%] text-center items-center justify-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
-          <div className='sm:w-[97%] sm:my-0 sm:py-0 sm:h-[350px] md:h-[780px] sm:p-1 items-center justify-center text-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
-            <h1 className='sm:text-lg sm:font-bold font-Hind sm:p-1 md:text-3xl md:p-2'>Why SecRadius ?</h1>
+      <div className='w-screen h-full  bg-slate-100'>
+        <div className='sm:my-0 sm:py-0 w-[100%] h-[100%] text-center items-center justify-center bg-slate-100'>
+          <div className='sm:w-[100%] sm:my-0 sm:py-0 sm:h-[350px] md:h-[780px] sm:p-1 items-center justify-center text-center bg-slate-100'>
+            <h1 className='sm:text-lg sm:font-bold font-Hind sm:p-1 md:text-3xl md:p-2 bg-slate-900 text-white
+            px-10'>Why SecRadius ?</h1>
             <img src="./Assets/about/abc-2.png" alt="" className='md:mx-36 md:px-20 md:w-[69%] md:h-[69%]' />
           </div>
           <div className='w-screen h-full bg-custom-color'>
-            <div className='md:px-20 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% p-2 pt-2'>
+            <div className='md:px-20 bg-slate-100'>
               <h1 className='text-justify font-Hind text-2xl font-bold sm:py-1'>SecRadius: Defending Your Digital Realm</h1>
               <ol className='text-justify list-disc font-semibold font-Poppins2'>
                 At SecRadius, our name encapsulates our core mission and values. Here's
@@ -58,10 +59,10 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='w-screen h-full  bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% duration-500'>
+      <div className='w-screen h-full  bg-slate-100'>
         <div className='w-screen h-full bg-custom-color'>
-          <div className='pt-10 text-center items-center w-screen h-screen bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
-            <h1 className='text-5xl font-bold font-Hind text-white'>Our Mission</h1>
+          <div className='pt-10 text-center items-center w-screen h-screen bg-slate-100'>
+            <h1 className='text-3xl p-2 mx-2 font-bold font-Hind bg-slate-900 text-white'>Our Mission</h1>
             <div className='max-w-[1250px] mx-auto my-10 sm:pb-0 p-2 md:grid grid-cols-2 duration-500 md:border-b-2 md:mt-52'>
               <div className='col-span-1 md:w-[80%] md:h-[80%] text-center md:mt-8 md:pt-16'>
                 <div className='text-justify pt-10 font-bold font-Hind'>
@@ -78,10 +79,10 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='w-screen h-full  bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% duration-500'>
-        <div className='w-screen h-full bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% md:mt-0'>
+      <div className='w-screen h-full  bg-slate-100'>
+        <div className='w-screen h-full bg-slate-100'>
           <div className='md:block  md:p-4 text-center justify-center items-center'>
-            <h1 className='p-3 text-2xl font-Hind font-bold'>Certified Cybersecurity Excellence Our Credentials</h1>
+            <h1 className='p-3 text-2xl font-Hind font-bold bg-slate-900 text-white mb-3'>Certified Cybersecurity Excellence Our Credentials</h1>
             <div className='sm:hidden md:block md:px-0 md:mx-0 lg:px-48'>
               <div className='flex md:mx-10 md:px-10 md:pt-3 sm:p-0 sm:w-[370px]'>
                 <img src="./Assets/about/c-1.png" alt="" className='w-28 h-28 p-2 ' />

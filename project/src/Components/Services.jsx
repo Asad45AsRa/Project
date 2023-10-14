@@ -4,12 +4,12 @@ import React from 'react'
 const Services = () => {
   return (
     <>
-      <div className='lg:w-screen md:w-screen h-40 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
-        <div className='w-screen h-24 text-center items-center p-2'>
+      <div className='lg:w-screen md:w-screen h-40 bg-slate-100'>
+        <div className='w-screen h-24 text-center items-center p-2 bg-slate-900'>
           <h1 className='text-5xl font-Hind font-bold pt-5 text-white'>Services</h1>
         </div>
       </div>
-      <div className='w-screen h-full bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
+      <div className='w-screen h-full bg-slate-100'>
         <div className='w-screen text-center items-center justify-center lg:py-3 lg:mx-36 lg:px-36 md:mx-20'>
           <img src="./Assets/services/sr-11.png" alt="" />
         </div>
@@ -28,12 +28,12 @@ const Services = () => {
           <p className='text-xl font-Hind font-bold sm:hidden md:block text-justify md:p-2'>At SecRadius, your security is our priority, and our services reflect that dedication.</p>
         </div>
       </div>
-      <div className='lg:w-screen md:w-screen h-full py-10 md:px-10 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
+      <div className='lg:w-screen md:w-screen h-full py-10 md:px-10 bg-slate-100'>
         <div className='w-full h-full md:p-2 md:grid-cols-3 md:flex'>
           <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
             <div className='flex-wrap  px-3 text-justify py-2'>
               <img src="./Assets/services/sr-2.png" alt="" className='w-44 h-40' />
-              <h1 className='font-bold text-xl px-2 py-1'>Web Application Penetration</h1>
+              <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Web Application Penetration</h1>
               <p>Web application penetration testing, also known as web
                 app pentesting, is a security assessment aimed at
                 identifying vulnerabilities  within web-based applications.
@@ -51,7 +51,7 @@ const Services = () => {
           <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
             <div className='flex-wrap  px-3 text-justify py-2'>
               <img src="./Assets/services/sr-6.png" alt="" className='w-44 h-40' />
-              <h1 className='font-bold text-xl px-2 py-1'>Network Penetration</h1>
+              <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Network Penetration</h1>
               <p>Network penetration testing, often referred to as network pentesting or
                 ethical hacking, involves assessing the security of an organization's
                 network infrastructure. Pentesters identify vulnerabilities in routers,
@@ -67,7 +67,7 @@ const Services = () => {
           <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-3.png" alt="" className='w-44 h-40' />
-                <h1 className='font-bold text-xl px-2 py-1'>API Penetration Testing</h1>
+                <h1 className='font-bold text-xl px-2 py-1 text-red-600'>API Penetration Testing</h1>
                 <p>API penetration testing focuses on the security of application
                 programming interfaces (APIs), which allow different software
                 components or services to communicate with each other. API
@@ -82,12 +82,12 @@ const Services = () => {
             </div>
         </div>
       </div>
-      <div className='pt-0 lg:w-screen md:w-screen h-full  py-8 md:px-10 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
+      <div className='pt-0 lg:w-screen md:w-screen h-full  py-8 md:px-10 bg-slate-100'>
         <div className='w-full h-full md:p-2 md:grid-cols-3 md:flex'>
             <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-1.png" alt="" className='w-44 h-40' />
-                <h1 className='font-bold text-xl px-2 py-1'>IOS Apps Penetration</h1>
+                <h1 className='font-bold text-xl px-2 py-1 text-red-600'>IOS Apps Penetration</h1>
                 <p>iOS app penetration testing involves evaluating the security of iOS mobile 
                 applications. Penetration testers assess the app's code, server interactions, 
                 and data storage to identify vulnerabilities that could be exploited by 
@@ -102,7 +102,7 @@ const Services = () => {
             <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-5.png" alt="" className='w-44 h-40' />
-                <h1 className='font-bold text-xl px-2 py-1'>Source Code Review</h1>
+                <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Source Code Review</h1>
                 <p>Source code review, also known as code auditing or static analysis, 
                 involves a thorough examination of an application's source code to 
                 identify security flaws and coding errors. Security experts analyze 
@@ -118,7 +118,7 @@ const Services = () => {
             <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-4.png" alt="" className='w-44 h-40' />
-                <h1 className='font-bold text-xl px-2 py-1'>Andriod Apps Penetration</h1>
+                <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Andriod Apps Penetration</h1>
                 <p>Similar to iOS app penetration testing, this service focuses on 
                 evaluating the security of Android mobile applications. Penetration 
                 testers examine the app's code, data storage, and communication 
@@ -134,7 +134,7 @@ const Services = () => {
        
       </div>
       </div>
-      <div className='lg:w-screen md:w-screen h-20 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
+      <div className='lg:w-screen md:w-screen h-20 bg-slate-100'>
         <div className='text-center justify-center items-center p-4'>
         <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
         </div>

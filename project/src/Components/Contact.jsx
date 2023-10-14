@@ -4,12 +4,12 @@ const Contact = () => {
   return (
     
     <>
-    <div className='w-full h-20 justify-center text-center pt-2  bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
+    <div className='w-full h-20 justify-center text-center pt-2 bg-slate-100'>
       <h1 className='font-bold text-4xl pt-2'>Contact Us</h1>
     </div>
 
     <div className='px-3 py-3'>
-    <div className="min-h-screen flex items-center justify-center  bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+    <div className="min-h-screen flex items-center justify-center bg-slate-100">
       <div className="bg-white p-6 rounded shadow-md w-96">
         <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
         <form>

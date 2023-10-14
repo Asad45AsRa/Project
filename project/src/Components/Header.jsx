@@ -23,7 +23,7 @@ const Header = () => {
     return (
         <>
             <header>
-                <div className='w-full h-11 items-center justify-center shadow-md bg-slate-800'>
+                <div className='w-full h-11 items-center justify-center shadow-md bg-slate-900'>
                     <div className='justify-between text-white flex p-1 py-1'>
                         <div className='text-xl font-bold font-Quicksand ml-2'>
                             Sec<span className='text-green-400'>Radius</span>
@@ -39,13 +39,13 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className='sm:hidden md:block w-full h-14 text-center items-center justify-center shadow-2xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-10 md:mr-10 duration-500'>
+                <div className='sm:hidden md:block w-full h-14 text-center items-center shadow-lg justify-center bg-slate-200'>
                     <div className='before:min-w-[412px]hide-mobile md:block md:w-full items-center text-center justify-center p-2 md:px-0 px-40'>
                         <ul className='sm:hidden py-1 md:flex text-xl font-Hind font-semibold justify-center lg:gap-10'>
                             {navLinks.map((item) => (
                                 <li key={item.label} className='mx-5'>
                                     <NavLink to={item.link}
-                                        className='text-white hover:text-red-600'>{item.label}</NavLink>
+                                        className={`hover:text-red-600 focus-within:bar__data ${!open ? 'text-black' : 'text-indigo-700'}`}>{item.label}</NavLink>
                                 </li>
 
                             ))}

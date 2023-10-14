@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='w-screen h-15 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%'>
+      <div className='w-screen h-15 bg-slate-100'>
         <div className='w-full h-full justify-center text-center p-3'>
           <p className='py-1 font-semibold font-Poppins italic'>© 2023 SecRadius. All Rights Reserved.</p>
         </div>

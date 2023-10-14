@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Service = () => {
-    return (
-        <div className='w-full h-screen mt-3'>
+const PentrationTesing = () => {
+  return (
+    <div className='w-full h-screen mt-3'>
             <div className='w-full h-96 bg-gradient-to-r from-[#050812] via-[#070C1B] to-[#0b1538] text-center justify-center'>
                 <div className='pt-32'>
                     <h1 className='text-white text-4xl font-bold p-2'>API Penetration Testing</h1>
@@ -25,8 +25,9 @@ const Service = () => {
                         prevent security breaches.</p>
                 </div>
             </div>
+            <img src=".\Assets\Pentration/p-1.webp" alt=""/>
         </div>
-    )
+  )
 }
 
-export default Service
+export default PentrationTesing;
