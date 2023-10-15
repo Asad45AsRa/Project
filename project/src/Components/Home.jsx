@@ -5,7 +5,6 @@ import About from './About'
 import Services from './Services';
 import Blogs from './Blogs'
 import Contact from './Contact'
-import PentrationTesing from './PentrationTesing';
 
 const Home = () => {
 
@@ -48,7 +47,6 @@ const Home = () => {
       <Services />
       <Blogs />
       <Contact />
-      <PentrationTesing />
     </>
   )
 }

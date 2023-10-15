@@ -1,7 +1,18 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+
 
 
 const Services = () => {
+
+  const ServicesBaj = [
+    {link : '/android', label : 'Learn More' },
+    {link : '/apipenetrationtesting', label : 'Learn More' },
+    {link : '/iospeneteration', label : 'Learn More' },
+    {link : '/networkpenetration', label : 'Learn More' },
+    {link : '/sourcecode', label : 'Learn More' },
+    {link : '/webapplication', label : 'Learn More' },
+  ]
   return (
     <>
       <div className='lg:w-screen md:w-screen h-40 bg-slate-100'>
@@ -42,9 +53,11 @@ const Services = () => {
                 cross-site scripting (XSS), and security misconfigurations.
                 The goal is to help organizations secure their web applications
                 and protect sensitive data.</p>
-              <div className='py-2'>
-                <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
-                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
+              <div className='py-2' >
+                <p key={ServicesBaj[5].link} className='text-center cursor-pointer bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>
+                  <NavLink to={ServicesBaj[5].link} >{ServicesBaj[5].label}</NavLink>
+                 </p>
               </div>
             </div>
           </div>
@@ -59,8 +72,9 @@ const Services = () => {
                 weaknesses that could be exploited to gain unauthorized access or
                 disrupt network operations.</p>
               <div className='py-2'>
-                <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
-                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
+                <p key={ServicesBaj[3].link} className='text-center cursor-auto bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>
+                  <NavLink to={ServicesBaj[3].link}>{ServicesBaj[3].label}</NavLink></p>
               </div>
             </div>
           </div>
@@ -75,8 +89,9 @@ const Services = () => {
                 validation mechanisms of APIs to ensure they are protected against
                 unauthorized access and potential exploits.</p>
                 <div className='py-2'> 
-                  <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
-                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
+                  <p key={ServicesBaj[1].label} className='text-center cursor-pointer bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'
+                 ><NavLink to={ServicesBaj[1].link}>{ServicesBaj[1].label}</NavLink></p>
                 </div>
               </div>
             </div>
@@ -94,8 +109,9 @@ const Services = () => {
                 attackers. The goal is to ensure that iOS apps are resilient to attacks 
                 and protect user data.</p>
                 <div className='py-2'> 
-                  <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
-                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
+                  <p key={ServicesBaj[2].link} className='text-center cursor-pointer bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>
+                  <NavLink to={ServicesBaj[2].link}>{ServicesBaj[2].label}</NavLink></p>
                 </div>
               </div>
             </div>
@@ -110,8 +126,9 @@ const Services = () => {
                 flaws, and insecure authentication mechanisms. The primary objective is 
                 to eliminate coding vulnerabilities before they can be exploited.</p>
                 <div className='py-2'> 
-                  <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
-                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
+                  <p key={ServicesBaj[4].link} className='text-center cursor-pointer bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>
+                  <NavLink to={ServicesBaj[4].link}>{ServicesBaj[4].label}</NavLink></p>
                 </div>
               </div>
             </div>
@@ -126,8 +143,9 @@ const Services = () => {
                 goal is to enhance the security of Android apps and protect user 
                 information.</p>
                 <div className='py-2'> 
-                  <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
-                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>Learn More</button>
+                  <p key={ServicesBaj[0].link} className=' text-center cursor-pointer bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-slate-900 font-bold rounded-md
+                 hover:bg-indigo-700 hover:p-3 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>
+                  <NavLink to={ServicesBaj[0].link}>{ServicesBaj[0].label}</NavLink></p>
                 </div>
               </div>
             </div>
