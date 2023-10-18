@@ -82,7 +82,7 @@ const Contact = () => {
         </div>
       </div>
       <div
-        style={{ backgroundImage: `url(${'./Assets/contact/cn-2.jpg'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
+        style={{ backgroundImage: `url(${'./Assets/contact/cn-2.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
         className='w-full h-80'>
       </div>
     </>

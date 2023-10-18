@@ -79,7 +79,7 @@ const ApiPenetrationTesting = () => {
           </div>
         </div>
       </div>
-      <div style={{ backgroundImage: `url(${'./Assets/APIPentration/api-3.jpg'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
+      <div style={{ backgroundImage: `url(${'./Assets/APIPentration/api-3.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
         className='w-full h-80 my-3 mix-blend-multiply'>
       </div>
       <div className='w-screen h-full'>
@@ -103,12 +103,12 @@ const ApiPenetrationTesting = () => {
                </ul>
             </div>
             <div className='col-span-1 md:w-[80%] text-center pt-10'>
-              <img src="./Assets/APIPentration/api-4.jpg" alt="" className='mix-blend-multiply' />
+              <img src="./Assets/APIPentration/api-4.webp" alt="" className='mix-blend-multiply' />
             </div>
           </div>
         </div>
       </div>
-      <div style={{ backgroundImage: `url(${'./Assets/APIPentration/api-6.jpg'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
+      <div style={{ backgroundImage: `url(${'./Assets/APIPentration/api-6.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
         className='w-full h-80 my-3 mix-blend-multiply text-center'>
           <div className='pt-72'>
           <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>

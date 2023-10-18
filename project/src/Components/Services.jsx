@@ -22,7 +22,7 @@ const Services = () => {
       </div>
       <div className='w-screen h-full bg-slate-100'>
         <div className='w-screen text-center items-center justify-center lg:py-3 lg:mx-36 lg:px-36 md:mx-20'>
-          <img src="./Assets/services/sr-11.png" alt="" />
+          <img src="./Assets/services/sr-11.webp" alt="" />
         </div>
         <div className='p-2'>
           <p className='text-xl font-Hind font-semibold md:p-2'>
@@ -43,7 +43,7 @@ const Services = () => {
         <div className='w-full h-full md:p-2 md:grid-cols-3 md:flex'>
           <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
             <div className='flex-wrap  px-3 text-justify py-2'>
-              <img src="./Assets/services/sr-2.png" alt="" className='w-44 h-40' />
+              <img src="./Assets/services/sr-2.webp" alt="" className='w-44 h-40' />
               <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Web Application Penetration</h1>
               <p>Web application penetration testing, also known as web
                 app pentesting, is a security assessment aimed at
@@ -63,7 +63,7 @@ const Services = () => {
           </div>
           <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
             <div className='flex-wrap  px-3 text-justify py-2'>
-              <img src="./Assets/services/sr-6.png" alt="" className='w-44 h-40' />
+              <img src="./Assets/services/sr-6.webp" alt="" className='w-44 h-40' />
               <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Network Penetration</h1>
               <p>Network penetration testing, often referred to as network pentesting or
                 ethical hacking, involves assessing the security of an organization's
@@ -80,7 +80,7 @@ const Services = () => {
           </div>
           <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
-                <img src="./Assets/services/sr-3.png" alt="" className='w-44 h-40' />
+                <img src="./Assets/services/sr-3.webp" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1 text-red-600'>API Penetration Testing</h1>
                 <p>API penetration testing focuses on the security of application
                 programming interfaces (APIs), which allow different software
@@ -101,7 +101,7 @@ const Services = () => {
         <div className='w-full h-full md:p-2 md:grid-cols-3 md:flex'>
             <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
-                <img src="./Assets/services/sr-1.png" alt="" className='w-44 h-40' />
+                <img src="./Assets/services/sr-1.webp" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1 text-red-600'>IOS Apps Penetration</h1>
                 <p>iOS app penetration testing involves evaluating the security of iOS mobile 
                 applications. Penetration testers assess the app's code, server interactions, 
@@ -117,7 +117,7 @@ const Services = () => {
             </div>
             <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
-                <img src="./Assets/services/sr-5.png" alt="" className='w-44 h-40' />
+                <img src="./Assets/services/sr-5.webp" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Source Code Review</h1>
                 <p>Source code review, also known as code auditing or static analysis, 
                 involves a thorough examination of an application's source code to 
@@ -134,7 +134,7 @@ const Services = () => {
             </div>
             <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
-                <img src="./Assets/services/sr-4.png" alt="" className='w-44 h-40' />
+                <img src="./Assets/services/sr-4.webp" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Andriod Apps Penetration</h1>
                 <p>Similar to iOS app penetration testing, this service focuses on 
                 evaluating the security of Android mobile applications. Penetration 

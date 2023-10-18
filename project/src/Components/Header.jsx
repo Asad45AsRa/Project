@@ -26,7 +26,7 @@ const Header = () => {
                 <div className='w-full h-11 items-center justify-center shadow-md bg-slate-900'>
                     <div className='justify-between text-white flex p-1 py-1'>
                         <div className='text-xl font-bold font-Quicksand ml-2'>
-                            Sec<span className='text-green-400'>Radius</span>
+                           <a href="/">Sec<span className='text-green-400'>Radius</span></a>
                         </div>
                         <ul className='flex py-1 gap-3'>
                             <li><Link to='/' ><AiFillLinkedin size={24} color='white'/></Link></li>

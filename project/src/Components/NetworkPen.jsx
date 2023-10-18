@@ -17,7 +17,7 @@ const NetworkPen = () => {
         <div className=' pt-24 mt-0 w-full h-full pb-3 shadow-lg bg-slate-100'>
           <div className=' max-w-[1250px] mx-auto my-0 sm:pb-0 p-3 md:grid grid-cols-2 duration-500 md:border-b-2'>
             <div className='col-span-1 md:w-[80%] text-center'>
-              <img src="./Assets/NetworkPent/nt-1.jpg" alt="" className='mix-blend-normal' />
+              <img src="./Assets/NetworkPent/nt-1.webp" alt="" className='mix-blend-normal' />
             </div>
             <div className='col-span-1 flex flex-col justify-center text-justify p-2 bg-transparent'>
               <h1 className='text-bold text-lg font-bold font-Hind'>NETWORK PENETRATION</h1>
@@ -56,7 +56,7 @@ const NetworkPen = () => {
           </div>
         </div>
       </div>
-      <div style={{ backgroundImage: `url(${'./Assets/NetworkPent/nt-7.jpg'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
+      <div style={{ backgroundImage: `url(${'./Assets/NetworkPent/nt-7.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
         className='w-full h-80 my-3 mix-blend-multiply'>
       </div>
       <div className='w-screen h-full'>
@@ -84,7 +84,7 @@ const NetworkPen = () => {
           </div>
         </div>
       </div>
-      <div style={{ backgroundImage: `url(${'./Assets/NetworkPent/nt-2.jpg'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
+      <div style={{ backgroundImage: `url(${'./Assets/NetworkPent/nt-2.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
         className='w-full h-96 my-3 mix-blend-multiply text-center'>
           <div className='pt-72'>
           <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>

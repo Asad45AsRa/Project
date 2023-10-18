@@ -12,7 +12,7 @@ const About = () => {
       <div className=' pt-0 mt-0 w-full h-full pb-3 shadow-lg bg-slate-100'>
         <div className='max-w-[1250px] mx-auto my-0 sm:pb-0 p-2 md:grid grid-cols-2 duration-500 md:border-b-2'>
           <div className='col-span-1 md:w-[80%] text-center'>
-            <img src="./Assets/about/abc.png" alt="" />
+            <img src="./Assets/about/abc.webp" alt="" />
           </div>
           <div className='col-span-1 flex flex-col justify-center text-justify p-2 bg-transparent'>
             <h1 className='text-bold text-lg font-bold font-Hind'>About Our Cybersecurity Team and Expertise</h1>
@@ -32,7 +32,7 @@ const About = () => {
           <div className='sm:w-[100%] sm:my-0 sm:py-0 sm:h-[350px] md:h-[780px] sm:p-1 items-center justify-center text-center bg-slate-100'>
             <h1 className='sm:text-lg sm:font-bold font-Hind sm:p-1 md:text-3xl md:p-2 bg-slate-900 text-white
             px-10'>Why SecRadius ?</h1>
-            <img src="./Assets/about/abc-2.png" alt="" className='md:mx-36 md:px-20 md:w-[69%] md:h-[69%]' />
+            <img src="./Assets/about/abc-2.webp" alt="" className='md:mx-36 md:px-20 md:w-[69%] md:h-[69%]' />
           </div>
           <div className='w-screen h-full bg-custom-color'>
             <div className='md:px-20 bg-slate-100'>
@@ -73,7 +73,7 @@ const About = () => {
                 </div>
               </div>
               <div className='col-span-1 flex flex-col justify-center text-justify p-2'>
-                <img src="./Assets/about/abc-3.png" alt="" />
+                <img src="./Assets/about/abc-3.webp" alt="" />
               </div>
             </div>
           </div>
@@ -85,53 +85,53 @@ const About = () => {
             <h1 className='p-3 text-2xl font-Hind font-bold bg-slate-900 text-white mb-3'>Certified Cybersecurity Excellence Our Credentials</h1>
             <div className='sm:hidden md:block md:px-0 md:mx-0 lg:px-48'>
               <div className='flex md:mx-10 md:px-10 md:pt-3 sm:p-0 sm:w-[370px]'>
-                <img src="./Assets/about/c-1.png" alt="" className='w-28 h-28 p-2 ' />
-                <img src="./Assets/about/c-2.png" alt="" className='w-36 h-36 p-2' />
-                <img src="./Assets/about/c-3.png" alt="" className='w-36 h-36 p-2' />
-                <img src="./Assets/about/c-4.png" alt="" className='w-36 h-36 p-2' />
-                <img src="./Assets/about/c-5.png" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-1.webp" alt="" className='w-28 h-28 p-2 ' />
+                <img src="./Assets/about/c-2.webp" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-3.webp" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-4.webp" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-5.webp" alt="" className='w-36 h-36 p-2' />
               </div>
               <div className='flex md:mx-10 md:px-10 md:pt-3 sm:p-0 sm:w-[370px]'>
-                <img src="./Assets/about/c-6.png" alt="" className='w-36 h-36 p-2' />
-                <img src="./Assets/about/c-7.png" alt="" className='w-36 h-36 p-2' />
-                <img src="./Assets/about/c-8.png" alt="" className='w-36 h-36 p-2' />
-                <img src="./Assets/about/c-9.png" alt="" className='w-36 h-36 p-2' />
-                <img src="./Assets/about/c-10.png" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-6.webp" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-7.webp" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-8.webp" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-9.webp" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-10.webp" alt="" className='w-36 h-36 p-2' />
               </div>
               <div className='flex md:mx-10 md:px-10 md:pt-3 sm:p-0 sm:w-[370px]'>
-                <img src="./Assets/about/c-15.png" alt="" className='w-36 h-36 p-2' />
-                <img src="./Assets/about/c-11.png" alt="" className='w-36 h-36 p-2' />
-                <img src="./Assets/about/c-12.png" alt="" className='w-36 h-36 p-2' />
-                <img src="./Assets/about/c-13.png" alt="" className='w-36 h-36 p-2' />
-                <img src="./Assets/about/c-14.png" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-15.webp" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-11.webp" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-12.webp" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-13.webp" alt="" className='w-36 h-36 p-2' />
+                <img src="./Assets/about/c-14.webp" alt="" className='w-36 h-36 p-2' />
               </div>
             </div>
            <div className='md:hidden'>
            <div className='flex'>
-              <img src="./Assets/about/c-1.png" alt="" className='w-24 h-24 p-2 mx-3 ' />
-              <img src="./Assets/about/c-2.png" alt="" className='w-24 h-24 p-2' />
-              <img src="./Assets/about/c-3.png" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-1.webp" alt="" className='w-24 h-24 p-2 mx-3 ' />
+              <img src="./Assets/about/c-2.webp" alt="" className='w-24 h-24 p-2' />
+              <img src="./Assets/about/c-3.webp" alt="" className='w-24 h-24 p-2 mx-3' />
             </div>
             <div className='flex'>
-              <img src="./Assets/about/c-4.png" alt="" className='w-24 h-24 p-2 mx-3' />
-              <img src="./Assets/about/c-5.png" alt="" className='w-24 h-24 p-2 mx-3' />
-              <img src="./Assets/about/c-6.png" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-4.webp" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-5.webp" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-6.webp" alt="" className='w-24 h-24 p-2 mx-3' />
 
             </div>
             <div className='flex'>
-              <img src="./Assets/about/c-7.png" alt="" className='w-24 h-24 p-2 mx-3' />
-              <img src="./Assets/about/c-8.png" alt="" className='w-24 h-24 p-2 mx-3' />
-              <img src="./Assets/about/c-9.png" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-7.webp" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-8.webp" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-9.webp" alt="" className='w-24 h-24 p-2 mx-3' />
             </div>
             <div className='flex'>
-              <img src="./Assets/about/c-10.png" alt="" className='w-24 h-24 p-2 mx-3' />
-              <img src="./Assets/about/c-15.png" alt="" className='w-24 h-24 p-2 mx-3' />
-              <img src="./Assets/about/c-11.png" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-10.webp" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-15.webp" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-11.webp" alt="" className='w-24 h-24 p-2 mx-3' />
             </div>
             <div className='flex'>
-              <img src="./Assets/about/c-12.png" alt="" className='w-24 h-24 p-2 mx-3' />
-              <img src="./Assets/about/c-13.png" alt="" className='w-24 h-24 p-2 mx-3' />
-              <img src="./Assets/about/c-14.png" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-12.webp" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-13.webp" alt="" className='w-24 h-24 p-2 mx-3' />
+              <img src="./Assets/about/c-14.webp" alt="" className='w-24 h-24 p-2 mx-3' />
             </div>
            </div>
           </div>

@@ -3,10 +3,10 @@ import React, { useState, useEffect, useMemo } from 'react'
 const Sales = () => {
 
   const  data1 = useMemo(() => [
-    { heading: 'APPLICATION PENETRATION TESTING', description: 'API pentesting evaluates the security of application programming interfaces, ensuring they"re protected against unauthorized access and exploits.', image: './Assets/slides/sl-1.png' },
-    { heading: 'VULNERABILITIES ASSESSMENTS', description: 'iOS app penetration testing assesses the security of iOS mobile apps, identifying code, server, and data vulnerabilities to protect user data.', image: './Assets/slides/sl-2.png' },
-    { heading: 'SOC-2 COMPILANCE', description: 'Android app penetration testing evaluates Android mobile apps for vulnerabilities in code, data storage, and communication protocols, enhancing app security.', image: './Assets/slides/sl-4.png' },
-    { heading: 'CLOUD SECURITY', description: "Cloud security involves protecting data, applications, and resources stored in cloud environments from unauthorized access, data breaches, and other cybersecurity threats. It's essential for maintaining the integrity and privacy of cloud-based information", image: './Assets/slides/sl-3.png' },
+    { heading: 'APPLICATION PENETRATION TESTING', description: 'API pentesting evaluates the security of application programming interfaces, ensuring they"re protected against unauthorized access and exploits.', image: './Assets/slides/sl-1.webp' },
+    { heading: 'VULNERABILITIES ASSESSMENTS', description: 'iOS app penetration testing assesses the security of iOS mobile apps, identifying code, server, and data vulnerabilities to protect user data.', image: './Assets/slides/sl-2.webp' },
+    { heading: 'SOC-2 COMPILANCE', description: 'Android app penetration testing evaluates Android mobile apps for vulnerabilities in code, data storage, and communication protocols, enhancing app security.', image: './Assets/slides/sl-4.webp' },
+    { heading: 'CLOUD SECURITY', description: "Cloud security involves protecting data, applications, and resources stored in cloud environments from unauthorized access, data breaches, and other cybersecurity threats. It's essential for maintaining the integrity and privacy of cloud-based information", image: './Assets/slides/sl-3.webp' },
   ], [])
 
   const [currentIndex, setCurrentIndex] = useState(0);

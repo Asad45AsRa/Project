@@ -20,7 +20,7 @@ const Home = () => {
             Your Trusted Guardian in Every Radius
           </div>
           <div className='w-[90%] h-[75%] pt-2 shadow-md mix-blend-multiply'>
-            <img src="./Assets/bj-14b.jpg" alt="" />
+            <img src="./Assets/bj-14b.webp" alt="" />
           </div>
         </div>
       </div>
