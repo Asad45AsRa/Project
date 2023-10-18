@@ -10,7 +10,9 @@ const ApiPenetrationTesting = () => {
             <h1 className='text-white text-4xl font-bold p-2'>API Penetration Testing</h1>
           </div>
           <div className='p-2'>
+            <NavLink to='/contact'>
             <button className='p-2 bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300'>GET STARTED</button>
+            </NavLink>
           </div>
         </div>
       </div>
