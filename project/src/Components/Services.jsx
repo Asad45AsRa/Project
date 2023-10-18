@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 
 
+
 const Services = () => {
 
   const ServicesBaj = [
@@ -39,9 +40,9 @@ const Services = () => {
           <p className='text-xl font-Hind font-bold sm:hidden md:block text-justify md:p-2'>At SecRadius, your security is our priority, and our services reflect that dedication.</p>
         </div>
       </div>
-      <div className='lg:w-screen md:w-screen h-full py-10 md:px-10 bg-slate-100'>
+      <div className='lg:w-screen md:w-screen h-full pt-10 md:px-10 bg-slate-100'>
         <div className='w-full h-full md:p-2 md:grid-cols-3 md:flex'>
-          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
+          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[880px] lg:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
             <div className='flex-wrap  px-3 text-justify py-2'>
               <img src="./Assets/services/sr-2.webp" alt="" className='w-44 h-40' />
               <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Web Application Penetration</h1>
@@ -61,7 +62,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
+          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[880px] lg:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
             <div className='flex-wrap  px-3 text-justify py-2'>
               <img src="./Assets/services/sr-6.webp" alt="" className='w-44 h-40' />
               <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Network Penetration</h1>
@@ -78,7 +79,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
+          <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[880px] lg:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-3.webp" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1 text-red-600'>API Penetration Testing</h1>
@@ -99,7 +100,7 @@ const Services = () => {
       </div>
       <div className='pt-0 lg:w-screen md:w-screen h-full  py-8 md:px-10 bg-slate-100'>
         <div className='w-full h-full md:p-2 md:grid-cols-3 md:flex'>
-            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
+            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[880px] lg:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-1.webp" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1 text-red-600'>IOS Apps Penetration</h1>
@@ -115,7 +116,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
+            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[880px] lg:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-5.webp" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Source Code Review</h1>
@@ -132,7 +133,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px] md:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
+            <div className='sm:py-5 sm:my-5 sm:px-0 md:w-[380px]md:h-[880px] lg:h-[580px] md:p-3 sm:w-[350px] shadow-lg bg-slate-900 text-white border border-black rounded-lg mx-2'>
               <div className='flex-wrap  px-3 text-justify py-2'>
                 <img src="./Assets/services/sr-4.webp" alt="" className='w-44 h-40' />
                 <h1 className='font-bold text-xl px-2 py-1 text-red-600'>Andriod Apps Penetration</h1>
@@ -154,7 +155,9 @@ const Services = () => {
       </div>
       <div className='lg:w-screen md:w-screen h-20 bg-slate-100'>
         <div className='text-center justify-center items-center p-4'>
+          <NavLink to='/contact'>
         <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
+        </NavLink>
         </div>
       </div>
     </>

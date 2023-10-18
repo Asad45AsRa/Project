@@ -50,7 +50,9 @@ const Header = () => {
 
                             ))}
                             <div className='ml-40 md:ml-0'>
+                                <NavLink to='/quote'>
                                 <button className='bg-slate-900 text-white rounded-md p-2 hover:bg-indigo-700 hover:font-bold font-Hind hover:rounded-none duration-300 text-sm mr-2 sm:px-1 sm:py-1 px-1 py-1'>Get Quote</button>
+                                </NavLink>
                             </div>
                         </ul>
                     </div>
@@ -62,7 +64,9 @@ const Header = () => {
                         </li>
                     ))}
                     <div className='md:hidden py-2'>
+                        <NavLink to='/quote'>
                         <button className='bg-slate-900 text-white hover:text-indigo-700 hover:font-bold font-Hind duration-300 px-8 py-1 mb-2'>Get Quote</button>
+                        </NavLink>
                     </div>
                 </ul>
             </header>

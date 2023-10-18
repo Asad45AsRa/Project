@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const IosPenetration = () => {
   return (
@@ -52,7 +53,7 @@ const IosPenetration = () => {
       </div>
     </div>
     <div style={{ backgroundImage: `url(${'./Assets/IOSPent/io-3.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
-      className='w-full h-80 my-3 mix-blend-multiply'>
+      className='w-full h-80 my-6 mix-blend-multiply'>
     </div>
     <div className='w-screen h-full'>
       <div className=' pt-24 mt-0 w-full h-full pb-3 shadow-lg bg-slate-100'>
@@ -73,16 +74,18 @@ const IosPenetration = () => {
              <li><strong>RCustomized Testing:</strong> Penetration tests can be tailored to the specific needs and characteristics of an organization's iOS applications, ensuring that testing efforts are focused on areas of greatest concern.</li>
              </ul>
           </div>
-          <div className='col-span-1 md:w-[80%] text-center pt-8 pl-16'>
+          <div className='col-span-1 md:w-[100%] text-center pb-0 px-3'>
             <img src="./Assets/IOSPent/io-1.webp" alt="" className='mix-blend-multiply' />
           </div>
         </div>
       </div>
     </div>
     <div style={{ backgroundImage: `url(${'./Assets/IOSPent/io-5.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
-      className='w-full h-96 my-3 mix-blend-multiply text-center'>
-        <div className='pt-72'>
-        <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
+      className='w-full h-96 my-6 mix-blend-multiply text-center'>
+        <div className='pt-72 pb-4'>
+          <NavLink to='/contact'>
+            <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
+          </NavLink>
         </div>
     </div>
   </>

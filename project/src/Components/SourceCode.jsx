@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const SourceCode = () => {
   return (
@@ -53,7 +54,7 @@ const SourceCode = () => {
       </div>
     </div>
     <div style={{ backgroundImage: `url(${'./Assets/SourceCode/sor-2.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
-      className='w-full h-80 my-3 mix-blend-multiply'>
+      className='w-full h-80 my-6 mix-blend-multiply'>
     </div>
     <div className='w-screen h-full'>
       <div className=' pt-24 mt-0 w-full h-full pb-3 shadow-lg bg-slate-100'>
@@ -74,16 +75,18 @@ const SourceCode = () => {
              <li><strong>Peer Learning:</strong> Code reviews create a learning environment where developers learn from each other, improve their skills, and gain insights into different approaches to problem-solving.</li>
              </ul>
           </div>
-          <div className='col-span-1 md:w-[80%] text-center pt-8 pl-16'>
+          <div className='col-span-1 md:w-[90%] text-center pt-8 pl-8 px-3'>
             <img src="./Assets/SourceCode/sor-3.webp" alt="" className='mix-blend-multiply' />
           </div>
         </div>
       </div>
     </div>
     <div style={{ backgroundImage: `url(${'./Assets/SourceCode/sor-4.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
-      className='w-full h-96 my-3 mix-blend-multiply text-center'>
-        <div className='pt-72'>
-        <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
+      className='w-full h-96 my-6 mix-blend-multiply text-center'>
+        <div className='pt-72 pb-4'>
+          <NavLink to='/contact'>
+            <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
+          </NavLink>
         </div>
     </div>
     </>

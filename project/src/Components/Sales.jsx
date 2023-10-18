@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useMemo } from 'react'
+import React, { useState, useEffect, useMemo } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Sales = () => {
 
@@ -6,7 +7,7 @@ const Sales = () => {
     { heading: 'APPLICATION PENETRATION TESTING', description: 'API pentesting evaluates the security of application programming interfaces, ensuring they"re protected against unauthorized access and exploits.', image: './Assets/slides/sl-1.webp' },
     { heading: 'VULNERABILITIES ASSESSMENTS', description: 'iOS app penetration testing assesses the security of iOS mobile apps, identifying code, server, and data vulnerabilities to protect user data.', image: './Assets/slides/sl-2.webp' },
     { heading: 'SOC-2 COMPILANCE', description: 'Android app penetration testing evaluates Android mobile apps for vulnerabilities in code, data storage, and communication protocols, enhancing app security.', image: './Assets/slides/sl-4.webp' },
-    { heading: 'CLOUD SECURITY', description: "Cloud security involves protecting data, applications, and resources stored in cloud environments from unauthorized access, data breaches, and other cybersecurity threats. It's essential for maintaining the integrity and privacy of cloud-based information", image: './Assets/slides/sl-3.webp' },
+    { heading: 'CLOUD SECURITY', description: "Cloud security involves protecting data, applications, and resources stored in cloud environments from unauthorized access, data breaches, and other cybersecurity threats. It's essential for maintaining the integrity and privacy of cloud-based information", image: './Assets/slides/sl-3.webp'},
   ], [])
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,7 +31,7 @@ const Sales = () => {
         <h1 className='text-red-600 font-bold my-2 text-justify duration-500'>{data1[currentIndex].heading}</h1>
         <p className='m-2y '>{data1[currentIndex].description}</p>
         <div className='py-2'>
-        <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 inline w-[30%] p-2 py-2'>Get Started</button>
+          <NavLink to='/services' ><button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 inline w-[30%] p-2 py-2'>Get Started</button></NavLink>
         </div>
       </div>
     </div>

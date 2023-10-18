@@ -3,14 +3,11 @@ import Typed from 'react-typed'
 import Sales from './Sales';
 import About from './About'
 import Services from './Services';
-import Blogs from './Blogs'
-import Contact from './Contact'
+import Blogs from './Blogs';
+import Contact from './Contact';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
-
-
-
-
 
   return (
     <>
@@ -37,7 +34,11 @@ const Home = () => {
         </div>
       </div>
       <div className='p-2'>
-        <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
+        <NavLink to='/contact'>
+        <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2
+      '>GET STARTED</button>
+        </NavLink>
+        
       </div>
       </div>
      </div>

@@ -14,20 +14,20 @@ const Contact = () => {
 
   return (
     <>
-      <div className='w-full h-20 justify-center text-center pt-2 bg-slate-100'>
-        <h1 className='font-bold text-4xl pt-2'>Contact Us</h1>
+      <div className='w-screen h-20 justify-center text-center pt-2 bg-slate-900'>
+        <h1 className='font-bold text-4xl pt-2 text-white'>Contact Us</h1>
       </div>
 
-      <div className='px-3 py-3'>
+      <div className='px-3 py-3 xl:px-16 xl:py-8'>
         <div className="min-h-screen flex items-center justify-center bg-slate-100">
-          <div className="bg-white p-6 rounded shadow-md w-96">
+          <div className="bg-white p-6 xl:p-8 rounded shadow-md w-full xl:w-96">
             <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
             <form>
               <div className="mb-4">
                 <label className="block text-gray-700 font-semibold">Name</label>
                 <input
                   type="text"
-                  className="border border-gray-300 rounded w-full px-3 py-2 focus:outline-none focus:border-blue-500"
+                  className="border border-gray-300 rounded w-full px-3 py-2 focus:outline-none focus:border-slate-500"
                   placeholder="Your Name"
                   required
                 />
@@ -36,7 +36,7 @@ const Contact = () => {
                 <label className="block text-gray-700 font-semibold">Email</label>
                 <input
                   type="email"
-                  className="border border-gray-300 rounded w-full px-3 py-2 focus:outline-none focus:border-blue-500"
+                  className="border border-gray-300 rounded w-full px-3 py-2 focus:outline-none focus:border-slate-500"
                   placeholder="Your Email"
                   required
                 />
@@ -44,7 +44,7 @@ const Contact = () => {
               <div className="mb-4">
                 <label className="block text-gray-700 font-semibold">Services</label>
                 <select
-                  className="border border-gray-300 rounded w-full px-3 py-2 focus:outline-none focus:border-blue-500"
+                  className="border border-gray-300 rounded w-full px-3 py-2 focus:outline-none focus:slate-blue-500"
                   value={inValue}
                   onChange={inputHandler}
                   required
@@ -62,7 +62,7 @@ const Contact = () => {
               <div className="mb-6">
                 <label className="block text-gray-700 font-semibold">Message</label>
                 <textarea
-                  className="border border-gray-300 rounded w-full px-3 py-2 focus:outline-none focus:border-blue-500 font-semibold"
+                  className="border border-gray-300 rounded w-full px-3 py-2 focus:outline-none focus:border-slate-500 font-semibold"
                   placeholder="Your Message"
                   rows="7"
                   value={message}
@@ -70,10 +70,9 @@ const Contact = () => {
                   required
                 ></textarea>
               </div>
-              <div></div>
               <button
                 type="submit"
-                className="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+                className="bg-slate-900 text-white font-semibold py-2 px-4 rounded hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700-600"
               >
                 Send Message
               </button>

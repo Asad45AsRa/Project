@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const NetworkPen = () => {
   return (
@@ -60,7 +61,7 @@ const NetworkPen = () => {
         className='w-full h-80 my-3 mix-blend-multiply'>
       </div>
       <div className='w-screen h-full'>
-        <div className=' pt-24 mt-0 w-full h-full pb-3 shadow-lg bg-slate-100'>
+        <div className=' pt-24 mt-0 w-full h-full pb-3 shadow-lg bg-slate-100 py-5'>
           <div className=' max-w-[1250px] mx-auto my-0 sm:pb-0 p-3 md:grid grid-cols-2 duration-500 md:border-b-2'>
           <div className='col-span-1 flex flex-col justify-center text-justify px-2 h-96 bg-transparent'>
               <h1 className='text-bold text-lg font-bold font-Hind'>Benefits of Network Penetration</h1>
@@ -78,17 +79,19 @@ const NetworkPen = () => {
                <li><strong>Risk Mitigation:</strong> Identifying and addressing vulnerabilities before they are exploited reduces the risk of security incidents and their associated costs and damages.</li>
                </ul>
             </div>
-            <div className='col-span-1 md:w-[80%] text-center pt-10'>
+            <div className='col-span-1 md:w-[100%] text-center pt-10 px-3'>
               <img src="./Assets/NetworkPent/nt-6.webp" alt="" className='mix-blend-multiply' />
             </div>
           </div>
         </div>
       </div>
       <div style={{ backgroundImage: `url(${'./Assets/NetworkPent/nt-2.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
-        className='w-full h-96 my-3 mix-blend-multiply text-center'>
-          <div className='pt-72'>
-          <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
-          </div>
+        className='w-full h-96 my-6 mix-blend-multiply text-center'>
+          <div className='pt-72 pb-4'>
+          <NavLink to='/contact'>
+            <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
+          </NavLink>
+        </div>
       </div>
     </>
   )

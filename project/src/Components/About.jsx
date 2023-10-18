@@ -62,7 +62,7 @@ const About = () => {
       <div className='w-screen h-full  bg-slate-100'>
         <div className='w-screen h-full bg-custom-color'>
           <div className='pt-10 text-center items-center w-screen h-screen bg-slate-100'>
-            <h1 className='text-3xl p-2 mx-2 font-bold font-Hind bg-slate-900 text-white'>Our Mission</h1>
+            <h1 className='text-3xl p-2 mx-1 font-bold font-Hind bg-slate-900 text-white'>Our Mission</h1>
             <div className='max-w-[1250px] mx-auto my-10 sm:pb-0 p-2 md:grid grid-cols-2 duration-500 md:border-b-2 md:mt-52'>
               <div className='col-span-1 md:w-[80%] md:h-[80%] text-center md:mt-8 md:pt-16'>
                 <div className='text-justify pt-10 font-bold font-Hind'>
@@ -80,11 +80,11 @@ const About = () => {
         </div>
       </div>
       <div className='w-screen h-full  bg-slate-100'>
-        <div className='w-screen h-full bg-slate-100'>
-          <div className='md:block  md:p-4 text-center justify-center items-center'>
+        <div className='w-screen h-full bg-slate-100 pb-10'>
+          <div className='md:block  md:pt-4 md:px-1 text-center justify-center items-center'>
             <h1 className='p-3 text-2xl font-Hind font-bold bg-slate-900 text-white mb-3'>Certified Cybersecurity Excellence Our Credentials</h1>
             <div className='sm:hidden md:block md:px-0 md:mx-0 lg:px-48'>
-              <div className='flex md:mx-10 md:px-10 md:pt-3 sm:p-0 sm:w-[370px]'>
+              <div className='flex md:mx-10 md:px-20 md:pt-3 sm:p-0 sm:w-[370px]'>
                 <img src="./Assets/about/c-1.webp" alt="" className='w-28 h-28 p-2 ' />
                 <img src="./Assets/about/c-2.webp" alt="" className='w-36 h-36 p-2' />
                 <img src="./Assets/about/c-3.webp" alt="" className='w-36 h-36 p-2' />

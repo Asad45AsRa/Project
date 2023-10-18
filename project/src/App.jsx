@@ -13,6 +13,7 @@ import Android from './Components/Android';
 import SourceCode from './Components/SourceCode';
 import WebApplication from './Components/WebApplication';
 import NetworkPen from './Components/NetworkPen'
+import Quote from './Components/Quote';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Route path='/services' element = {<Services />} />
       <Route path='/blog' element = {<Blogs />} />
       <Route path='/contact' element = {<Contact />} />
+      <Route path='/quote' element = {<Quote />} />
       <Route path='/android' element = {<Android />} />
       <Route path='/apipenetrationtesting' element = {<ApiPenetrationTesting />} />
       <Route path='/iospeneteration' element = {<IosPenetration />} />

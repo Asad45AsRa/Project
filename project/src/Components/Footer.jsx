@@ -61,8 +61,8 @@ const Footer = () => {
             </div>
             <div className='p-3  md:w-[450px] lg:w[500] sm:w-full'>
               <h1 className="text-lg font-Hind font-semibold">Legal</h1>
-              <p>Terms of Service</p>
-              <p>Privacy Policy</p>
+              <p className='underline italic'>Terms of Service</p>
+              <p className='underline italic'>Privacy Policy</p>
             </div>
           </div>
         </div>

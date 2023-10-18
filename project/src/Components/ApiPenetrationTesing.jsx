@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 const ApiPenetrationTesting = () => {
   return (
@@ -39,48 +40,48 @@ const ApiPenetrationTesting = () => {
           <div className='text-center justify-center font-semibold font-Hind'>
             <h1 className='pt-5 text-3xl'>What is Api Penetration Testing</h1>
           </div>
-          <div className='pt-5 font-Poppins font-semibold'>
-            <p>API penetration testing is a comprehensive process designed to assess and evaluate the security of Application Programming Interfaces (APIs). APIs are a fundamental component of modern software, enabling the
+          <div className='pt-5 font-Poppins'>
+            <p className='font-semibold'>API penetration testing is a comprehensive process designed to assess and evaluate the security of Application Programming Interfaces (APIs). APIs are a fundamental component of modern software, enabling the
               exchange of data and functionality between various applications, platforms, and services. However, their essential role in data sharing also makes them susceptible to security vulnerabilities. API penetration
               testing aims to identify and address these vulnerabilities to ensure the robustness of the API and the overall security of the systems that rely on it. Here's a detailed explanation of API penetration testing
               in points</p>
             <div className='px-2'>
               <ul className='list-disc'>
                 <h1 className='pt-5 font-Poppins font-bold text-lg'>Definition of API Penetration Testing</h1>
-                <li className='px-2 font-semibold'>API penetration testing involves a thorough examination of the security of an API to identify vulnerabilities and weaknesses</li>
+                <li className='px-2 '>API penetration testing involves a thorough examination of the security of an API to identify vulnerabilities and weaknesses</li>
               </ul>
               <ul className='list-disc'>
                 <h1 className='pt-5 font-Poppins font-bold text-lg'>Purpose of API Penetration Testing</h1>
-                <li className='px-2 font-semibold'>To assess the security posture of an API and the applications relying on it</li>
-                <li className='px-2 font-semibold'>To identify and mitigate potential vulnerabilities that could be exploited by malicious actors</li>
-                <li className='px-2 font-semibold'>To ensure that sensitive data and functionality are protected from unauthorized access or abuse</li>
+                <li className='px-2 '>To assess the security posture of an API and the applications relying on it</li>
+                <li className='px-2 '>To identify and mitigate potential vulnerabilities that could be exploited by malicious actors</li>
+                <li className='px-2 '>To ensure that sensitive data and functionality are protected from unauthorized access or abuse</li>
               </ul>
               <ul className='list-disc'>
                 <h1 className='pt-5 font-Poppins font-bold text-lg'>Key Security Challenges Addressed</h1>
-                <li className='px-2 font-semibold'> <strong>Authentication and Authorization:</strong> Verify the strength of access control mechanisms</li>
-                <li className='px-2 font-semibold'> <strong>Input Validation:</strong> Ensure that data input is properly validated to prevent injection attacks</li>
-                <li className='px-2 font-semibold'> <strong>Session Management:</strong> Evaluate the security of session handling to prevent session fixation and hijacking</li>
-                <li className='px-2 font-semibold'> <strong>Rate Limiting:</strong> Check that rate limiting is enforced to prevent abuse and overuse</li>
-                <li className='px-2 font-semibold'> <strong>Error Handling:</strong> Examine error responses to avoid leaking sensitive information</li>
+                <li className='px-2 '> <strong>Authentication and Authorization:</strong> Verify the strength of access control mechanisms</li>
+                <li className='px-2 '> <strong>Input Validation:</strong> Ensure that data input is properly validated to prevent injection attacks</li>
+                <li className='px-2 '> <strong>Session Management:</strong> Evaluate the security of session handling to prevent session fixation and hijacking</li>
+                <li className='px-2 '> <strong>Rate Limiting:</strong> Check that rate limiting is enforced to prevent abuse and overuse</li>
+                <li className='px-2 font-'> <strong>Error Handling:</strong> Examine error responses to avoid leaking sensitive information</li>
               </ul>
               <ul className='list-disc'>
                 <h1 className='pt-5 font-Poppins font-bold text-lg'>Testing Methodology</h1>
-                <li className='px-2 font-semibold'>Information Gathering: Gather information about the API, including endpoints and technologies</li>
-                <li className='px-2 font-semibold'>Threat Modeling: Identify potential threats specific to the API's architecture and design</li>
-                <li className='px-2 font-semibold'>Authentication and Authorization Testing: Assess access control mechanisms</li>
-                <li className='px-2 font-semibold'>Input Validation and Output Encoding: Test for input validation issues and injection vulnerabilities</li>
-                <li className='px-2 font-semibold'>Session Management Testing: Verify the security of session handling</li>
-                <li className='px-2 font-semibold'>Rate Limiting and Throttling Testing: Ensure rate limiting is in place</li>
-                <li className='px-2 font-semibold'>Error Handling: Examine error responses for potential information leaks</li>
-                <li className='px-2 font-semibold'>Scanning for Known Vulnerabilities: Use automated tools to identify known vulnerabilities</li>
-                <li className='px-2 font-semibold'>Reporting and Remediation: Document findings and provide recommendations for mitigation</li>
+                <li className='px-2 '>Information Gathering: Gather information about the API, including endpoints and technologies</li>
+                <li className='px-2 '>Threat Modeling: Identify potential threats specific to the API's architecture and design</li>
+                <li className='px-2 '>Authentication and Authorization Testing: Assess access control mechanisms</li>
+                <li className='px-2 '>Input Validation and Output Encoding: Test for input validation issues and injection vulnerabilities</li>
+                <li className='px-2 '>Session Management Testing: Verify the security of session handling</li>
+                <li className='px-2 '>Rate Limiting and Throttling Testing: Ensure rate limiting is in place</li>
+                <li className='px-2 '>Error Handling: Examine error responses for potential information leaks</li>
+                <li className='px-2 '>Scanning for Known Vulnerabilities: Use automated tools to identify known vulnerabilities</li>
+                <li className='px-2 '>Reporting and Remediation: Document findings and provide recommendations for mitigation</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
       <div style={{ backgroundImage: `url(${'./Assets/APIPentration/api-3.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
-        className='w-full h-80 my-3 mix-blend-multiply'>
+        className='w-full h-80 my-6 mix-blend-multiply'>
       </div>
       <div className='w-screen h-full'>
         <div className=' pt-24 mt-0 w-full h-full pb-3 shadow-lg bg-slate-100'>
@@ -102,17 +103,19 @@ const ApiPenetrationTesting = () => {
                <li><strong>Cost Savings:</strong>  Detecting and fixing security issues early is more cost-effective than dealing with the financial and reputational consequences of a data breach or service disruption</li>
                </ul>
             </div>
-            <div className='col-span-1 md:w-[80%] text-center pt-10'>
+            <div className='col-span-1 md:w-[100%] text-center pt-10 px-3'>
               <img src="./Assets/APIPentration/api-4.webp" alt="" className='mix-blend-multiply' />
             </div>
           </div>
         </div>
       </div>
       <div style={{ backgroundImage: `url(${'./Assets/APIPentration/api-6.webp'})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}
-        className='w-full h-80 my-3 mix-blend-multiply text-center'>
-          <div className='pt-72'>
-          <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
-          </div>
+        className='w-full h-full my-6 mix-blend-multiply text-center'>
+          <div className='pt-72 pb-4'>
+          <NavLink to='/contact'>
+            <button className=' bg-slate-900 text-white rounded-md hover:bg-indigo-700 hover:rounded-none hover:font-bold font-Hind duration-300 p-2'>GET STARTED</button>
+          </NavLink>
+        </div>
       </div>
     </>
 
